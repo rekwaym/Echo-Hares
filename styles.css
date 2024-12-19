@@ -1,0 +1,230 @@
+﻿/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+    nav .logo {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+        color: white;
+    }
+
+    nav .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        margin: 0;
+    }
+
+        nav .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+/* Homepage */
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.title-container {
+    flex: 1;
+}
+
+.title-background {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(45deg, #ED820E, #FF007F);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+.icon-container img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* About Us */
+.about {
+    padding: 30px;
+}
+
+.vision-mission {
+    margin-bottom: 40px;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+.panel {
+    flex: 1;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.panel img {
+    max-height: auto;
+    max-width: 100%;
+}
+
+    .panel .title-background {
+        margin-bottom: 10px;
+    }
+
+/* Services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.service-panel {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin:20px 0;
+}
+
+    .service-panel .title-background {
+        margin-bottom: 10px;
+        max-width: fit-content;
+    }
+    .pics-wrap {
+        max-width: fit-content;
+    }
+    .digiArt-pics img, .saluta-pics img {
+        max-height: 325px;
+        padding: 0 5px 5px 0;
+        width:auto;
+    }
+    .saluta-pics {
+        width: 100%;
+    }
+    .service-image {
+        width: auto;
+        max-height: 500px;
+    }
+/*terms and conditions*/
+.termsAndConditions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.terms-panel {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin:10px 0;
+    line-height: 2rem;
+}
+
+.commission-button {
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #ED820E;
+        color: black;
+        cursor: pointer;
+        padding: 8px;
+}
+.commission-button:hover {
+    background-color: #FF007F;
+}
+
+.commission-button-back {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    background: grey;
+    margin: 0px 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 30px;
+}
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact input, .contact textarea, .contact button {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .contact button {
+        background-color: #ED820E;
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+        .contact button:hover {
+            background-color: #FF007F;
+        }
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.5rem;
+    position: relative;
+}
+
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-style: "Noto Sans", Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.5rem;
+        font-size: small;
+    }
+
+.footer-logo {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.fa {
+    color: #fff;
+    padding: 2px;
+    margin: 0.5rem;
+    width: 20px;
+    height: 20px;
+    align-content: center;
+    border-radius: 50%;
+    font-size: large;
+}
